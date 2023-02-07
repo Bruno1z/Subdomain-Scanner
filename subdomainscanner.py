@@ -1,7 +1,7 @@
 #Python 3.11.1
 import requests # De-facto python library for HTTP request. 
 
-domain = "youtube.com"  #target domain 
+domain = input("Enter the domain you want to find subdomains to: ")  #target domain 
 
 with open("subdomains.txt", "r") as file: 
 
